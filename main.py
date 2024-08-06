@@ -76,9 +76,7 @@ if __name__ == '__main__':
         h2_tag = i.find('h2')
         a_tag = h2_tag.find('a')
         absolute_link = a_tag['href']
-        # print(absolute_link)
         link.append(absolute_link)
-        print(absolute_link)
 
         vacancy_soup = response(absolute_link)
 
