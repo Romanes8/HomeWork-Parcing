@@ -67,7 +67,7 @@ if __name__ == '__main__':
     # вызов функции organization_func(tags_list)
     organization_list = organization_func(tags)
 
-    # получениe списков ссылок(link), зараплат(salary), описаний вакансий(texts)
+    # получениe списков ссылок(link), зараплат(salary), описаний вакансий(description)
     link = []
     salary = []
     description = []
